@@ -2,8 +2,6 @@
 
 ![alt tag](https://raw.githubusercontent.com/Seungyeup/graduation-project/master/home/share/img/sub/0101_img01.jpg)
 
-## 2
-
 ## Motivation
 3
 
