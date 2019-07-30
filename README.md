@@ -4,7 +4,7 @@
 ### 1
 <center>
 
-![alt tag](https://raw.githubusercontent.com/Seungyeup/Python-Algorithm-Trading/master/Algorithm_Trading.jpg)
+![alt tag](https://raw.githubusercontent.com/Seungyeup/graduation-project/master/Algorithm_Trading.jpg)
 
 ## 2
 
