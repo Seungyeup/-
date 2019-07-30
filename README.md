@@ -1,8 +1,4 @@
 # 2019 전반기 정보컴퓨터공학 전공 졸업과제
-##         팀원:  문혁준, 이승엽, 이찬영 
-
-### 1
-<center>
 
 ![alt tag](https://raw.githubusercontent.com/Seungyeup/graduation-project/master/home/share/img/board/no_img.jpg)
 
