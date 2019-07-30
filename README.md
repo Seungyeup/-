@@ -1,5 +1,5 @@
 # 2019 전반기 정보컴퓨터공학 전공 졸업과제
-##         (팀원 문혁준, 이승엽, 이찬영 )
+##         팀원:  문혁준, 이승엽, 이찬영 
 
 ### Project to create a stock trading system using Python language and algorithms.
 <center>
