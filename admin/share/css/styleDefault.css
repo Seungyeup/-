@@ -1,0 +1,219 @@
+/*--------------------------------------- 타이틀 ---------------------------------------*/
+.ad_tit01 {position: relative;display: block;font-size: 22px;color: #444;line-height: 34px;padding-left: 10px;font-weight: 600}
+.ad_tit01:after {position: absolute;top: 7px;left: 0;width: 3px;height: 20px;background: #095db3;content: "";}
+
+.ad_tit02 {position: relative;display: block;font-size: 18px;color: #444;line-height: 34px;padding-left: 10px;}
+.ad_tit02:after {position: absolute;top: 14px;left: 0;width: 5px;height: 5px;border-radius: 50%;background: #444;content: "";}
+
+.ad_tit03 {position: relative;display: block;font-size: 16px;color: #095db3;line-height: 34px;padding-left: 10px;}
+.ad_tit03:after {position: absolute;top: 16px;left: 0;width: 5px;height: 2px;background: #095db3;content: "";}
+
+.ad_tit01.inline, .ad_tit02.inline, .ad_tit03.inline {display: inline-block !important}
+
+/*---------------------------------------텍스트타입 스타일 ---------------------------------------*/
+.txt_type {
+    float: left;margin-right: 5px;display: inline-block;padding: 0 5px;min-width: 35px;text-align: center;font-size: 11px;
+    height: 18px;line-height: 18px;font-weight: 600;border: 1px solid #ccc;border-radius: 3px;letter-spacing: 0
+}
+
+.type_blue {color: #2d7bf4;border: 1px solid #2d7bf4}
+.type_sky {color: #4eb7eb;border: 1px solid #4eb7eb}
+.type_yellow {color: #f9bc0b;border: 1px solid #f9bc0b}
+.type_red {color: #f3434b;border: 1px solid #f3434b}
+.type_green {color: #85ba05;border: 1px solid #85ba05}
+
+@media only screen and (max-width:640px){
+    .txt_type {padding: 0 3px;min-width: 30px;margin-right: 3px }
+}
+
+/*---------------------------------------프로그레스 스타일 ---------------------------------------*/
+
+.progress {position: relative;display: block;width: 100%;height: 20px;background: #f3f3f3;overflow: hidden;border-radius: 5px;}
+.progress_bar {position: relative;display: block;height: 20px;font-size: 12px;color: #fff;text-align: center;letter-spacing: 0;white-space:nowrap;background: #2d7bf4}
+
+/*---------------------------------------인포박스 ---------------------------------------*/
+.infoBox {position: relative;display: block;overflow: hidden;border-radius: 5px;padding: 15px;color: #555;background: #f8f8f8;border: 1px solid #ddd;margin: 3px 0}
+.line_red {color: #f3434b;background: #fef0f2;border: 1px solid #f9b3bd;}
+.line_blue {color: #2d7bf4;background: #e5effe;border: 1px solid #8eb8f9;}
+.line_sky {color: #4eb7eb;background: #eef8fd;border: 1px solid #aadcf5;}
+.line_yellow {color: #f9bc0b;background: #fffaeb;border: 1px solid #fbd76f;}
+.line_gray {color: #4eb7eb;background: #eef8fd;border: 1px solid #aadcf5;}
+
+.bg_red {color: #fff;background: #f3434b;border: none;}
+.bg_blue {color: #fff;background: #2d7bf4;border: none;}
+.bg_sky {color: #fff;background: #4eb7eb;border: none;}
+.bg_yellow {color: #fff;background: #f9bc0b;border: none;}
+.bg_gray {color: #fff;background: #6c757d;border: none;}
+
+/*---------------------------------------탭스타일 ---------------------------------------*/
+
+.cont-tab {position: relative;display: block;overflow: hidden;background: #e6eaef;}
+.cont-tab ul {overflow: hidden;width: 100%;}
+.cont-tab li {float: left;}
+.cont-tab li:last-child {border-right: none}
+.cont-tab li a {display: block;text-align: center;font-size: 15px;color: #666;padding: 12px 0;border: 1px solid #e6eaef;border-bottom: 1px solid #bbb}
+.cont-tab li a:hover {color: #f3434b;}
+.cont-tab li.active a {color: #f3434b;border: 1px solid #bbb;border-bottom: 1px solid #fff;font-weight: 600;background: #fff;}
+
+.ad_tab01 {position: relative;display: block;overflow: hidden;}
+.ad_tab01 ul {overflow: hidden;width: 100%;}
+.ad_tab01 li {float: left;}
+.ad_tab01 li:last-child {border-right: none}
+.ad_tab01 li a {display: block;text-align: center;font-size: 15px;color: #98a6ad;padding: 15px 0;border-bottom: 1px solid #dee2e6;}
+.ad_tab01 li a:hover {color: #095db3;}
+.ad_tab01 li.active a {color: #095db3;border: 1px solid #dee2e6;border-bottom: 1px solid #fff;border-top-right-radius: 5px;border-top-left-radius: 5px}
+
+.ad_tab02 {position: relative;display: block;overflow: hidden;border: 1px solid #dee2e6;background: #fafafa;border-radius: 5px;padding: 0 7px}
+.ad_tab02 ul {overflow: hidden;width: 100%;}
+.ad_tab02 li {float: left;box-sizing: border-box;padding: 10px 7px;}
+.ad_tab02 li a {display: block;text-align: center;font-size: 15px;color: #98a6ad;padding: 8px 0;background: #e2e7ed;border-radius: 5px;}
+.ad_tab02 li a:hover {color: #095db3;text-decoration: underline}
+.ad_tab02 li.active a {background: #095db3;color: #fff;}
+
+
+.tw50 li {width: 50%;}
+.tw33 li {width: 33.33%}
+.tw25 li {width: 25%}
+.tw20 li {width: 20%}
+.tw16 li {width: 16.66%}
+.tw14 li {width: 14.28%}
+.tw12 li {width: 12.5%}
+
+@media only screen and (max-width:860px){
+
+    .cont-tab {background: #fff;border-top: 1px solid #ddd;border-left: 1px solid #ddd;box-sizing: border-box}
+    .cont-tab li {margin: -1px 0 0 -1px;}
+    .cont-tab li a {display: block;text-align: center;font-size: 14px;color: #666;padding: 8px 0;border: 1px solid #ddd;box-sizing: border-box;background: #f8f8f8;}
+    .cont-tab li.active a {background: #f3434b;color: #fff;border: 1px solid #f3434b;}
+
+    .tw12 li {width: 25%}
+}
+@media only screen and (max-width:400px){
+    .cont-tab li a {font-size: 13px;padding: 6px 0;}
+
+    .tw12 li {width: 33.33%}
+}
+
+
+/*---------------------------------------테이블 스타일 ---------------------------------------*/
+.table_st1 {position: relative;display: block;}
+.table_st1 table {border-collapse: collapse;border-spacing: 0;table-layout: fixed;width: 100%;clear: both;text-align: center;border-top: 1px solid #dee2e6;}
+.table_st1 th, .table_st1 td {border: 1px solid #dee2e6;padding: 12px;word-wrap: break-word;}
+.table_st1 td {text-align: left;}
+.table_st1 th {background: #f3f6f8;color: #333;}
+.table_st1 thead th {border-bottom: 2px solid #dee2e6}
+.table_st1 td {background: #fff;}
+.table_st1 .c {text-align: center}
+.table_st1 .l {text-align: left}
+.table_st1 .r {text-align: right}
+
+.table_st2 {position: relative;display: block;}
+.table_st2 table {border-collapse: collapse;border-spacing: 0;table-layout: fixed;width: 100%;clear: both;text-align: center;border-top: 1px solid #dee2e6;}
+.table_st2 th, .table_st2 td {border: 1px solid #dee2e6;padding: 12px;word-wrap: break-word;}
+.table_st2 td {text-align: center;}
+.table_st2 th {color: #333;background: #fff;border-bottom: 2px solid #dee2e6;font-weight: 600}
+.table_st2 tr:nth-child(odd) td {background: #f3f6f8;}
+.table_st2 .c {text-align: center}
+.table_st2 .l {text-align: left}
+.table_st2 .r {text-align: right}
+
+
+
+/*---------------------------------------체크박스&라디오 스타일 ---------------------------------------*/
+.checkbox, .radio { position: relative;padding-left: 26px;overflow: hidden;margin: 2px 0 }
+
+.checkbox.checkbox_inline, .radio.radio_inline { display: inline-block;vertical-align: top;margin: 3px 8px 3px 0}
+.checkbox.checkbox_single label, .radio.radio_single label {width: 18px;height: 18px;text-indent: -9999px;padding-left: 0}
+
+.checkbox label { position: relative;display: inline-block;line-height: 20px;}
+.checkbox label::before {
+    content: "";display: inline-block;position: absolute;width: 14px;height: 14px;left: 0;margin-left: -24px;border: 2px solid #98a6ad;border-radius: 3px;background-color: #fff;box-sizing: initial;
+    -webkit-transition: border 0.2s ease-in-out, color 0.2s ease-in-out;-o-transition: border 0.15s ease-in-out, color 0.15s ease-in-out;transition: border 0.15s ease-in-out, color 0.15s ease-in-out;
+}
+.checkbox label::after { display: inline-block;position: absolute;width: 14px;height: 14px;left: 0;top: 0;margin-left: -24px;padding-left: 2px;padding-top: 1px;font-size: 13px;color: #555555;font-weight: 600;line-height: 17px;text-indent: 0}
+.checkbox input[type="checkbox"] { position: absolute;top: 0;left: 0;opacity: 0;width: 20px;height: 20px;cursor: pointer;z-index: 10 }
+.checkbox input[type="checkbox"]:focus + label::before { outline: thin dotted;outline: 5px auto -webkit-focus-ring-color;outline-offset: -2px;}
+.checkbox input[type="checkbox"]:checked + label::after { font-family: lineawesome !important;content: "\f17b";}
+.checkbox input[type="checkbox"]:disabled + label { opacity: 0.65;}
+.checkbox input[type="checkbox"]:disabled + label::before { background-color: #eeeeee;cursor: not-allowed;}
+
+.checkbox input[type="checkbox"]:checked + label::before { background-color: #095db3;border-color: #095db3;}
+.checkbox input[type="checkbox"]:checked + label::after { color: #fff;}
+
+.radio label { position: relative;display: inline-block;line-height: 20px;}
+.radio label::before {
+    content: "";display: inline-block;position: absolute;width: 14px;height: 14px;left: 0;top: 0;margin-left: -24px;border: 2px solid #98a6ad;border-radius: 50%;background-color: #fff;box-sizing: initial;
+    -webkit-transition: border 0.15s ease-in-out;-o-transition: border 0.2s ease-in-out;transition: border 0.2s ease-in-out;]
+}
+.radio label::after {
+    display: inline-block;position: absolute;content: " ";width: 10px;height: 10px;left: 4px;top: 4px;margin-left: -24px;border-radius: 50%;background-color: #98a6ad;
+    -webkit-transform: scale(0, 0);-ms-transform: scale(0, 0);-o-transform: scale(0, 0);transform: scale(0, 0);-webkit-transition: -webkit-transform 0.1s cubic-bezier(0.8, -0.33, 0.2, 1.33);
+    -moz-transition: -moz-transform 0.1s cubic-bezier(0.8, -0.33, 0.2, 1.33);-o-transition: -o-transform 0.1s cubic-bezier(0.8, -0.33, 0.2, 1.33);transition: transform 0.2s cubic-bezier(0.8, -0.33, 0.2, 1.33);
+}
+.radio input[type="radio"] { position: absolute;top: 0;left: 0;opacity: 0;width: 20px;height: 20px;cursor: pointer;z-index: 10 }
+.radio input[type="radio"]:focus + label::before { outline: thin dotted;outline: 5px auto -webkit-focus-ring-color;outline-offset: -2px;}
+.radio input[type="radio"]:checked + label::after { -webkit-transform: scale(1, 1);-ms-transform: scale(1, 1);-o-transform: scale(1, 1);transform: scale(1, 1);}
+.radio input[type="radio"]:disabled + label { opacity: 0.65;}
+.radio input[type="radio"]:disabled + label::before { cursor: not-allowed;}
+
+.radio input[type="radio"] + label::after { background-color: #095db3;}
+.radio input[type="radio"]:checked + label::before { border-color: #095db3;}
+.radio input[type="radio"]:checked + label::after { background-color: #095db3;}
+
+input[type="radio"] .styled:checked + label::before { color: #fff;}
+input[type="radio"] .styled:checked + label::after { color: #fff;}
+
+
+
+/*---------------------------------------버튼 스타일 ---------------------------------------*/
+.btn {
+    overflow: hidden;display: inline-block;vertical-align: top;border-radius: 3px;font-size: 13px;outline: none !important;
+    text-align: center;padding: .375rem 1.1rem;border: 1px solid #d6dce1;background: #f8f9fa;color: #212529;margin: 1px;
+}
+
+.btn_blue {background: #095db3;border-color: #095db3;color: #fff;}
+.btn_gray {background: #8d8d8d;border-color: #8d8d8d;color: #fff;}
+.btn_green {background: #7ab605;border-color: #7ab605;color: #fff;}
+.btn_red {background: #ef3d58;border-color: #ef3d58;color: #fff;}
+.btn_yellow {background: #f9bc0b;border-color: #f9bc0b;color: #fff;}
+.btn_sky {background: #4eb7eb;border-color: #4eb7eb;color: #fff;}
+.btn_dark {background: #313a46;border-color: #313a46;color: #fff;}
+.btn_org {background: #ef4123;border-color: #ef4123;color: #fff;}
+
+.btn_outline_blue {color: #095db3;border-color: #095db3;background: #fff;}
+.btn_outline_gray {color: #6c757d;border-color: #6c757d;background: #fff;}
+.btn_outline_green {color: #7ab605;border-color: #7ab605;background: #fff;}
+.btn_outline_red {color: #ef3d58;border-color: #ef3d58;background: #fff;}
+.btn_outline_yellow {color: #f9bc0b;border-color: #f9bc0b;background: #fff;}
+.btn_outline_sky {color: #4eb7eb;border-color: #4eb7eb;background: #fff;}
+.btn_outline_dark {color: #313a46;border-color: #313a46;background: #fff;}
+.btn_outline_org {background: #ef4123;border-color: #ef4123;color: #fff;}
+
+.bw_xxs {min-width: 30px;padding: 0 10px;font-size: 13px;line-height: 20px;}
+.bw_xs {min-width: 50px}
+.bw_sm {min-width: 80px}
+.bw_md {min-width: 110px}
+.bw_lg {min-width: 130px}
+
+.bh_sm {padding: .2rem .8rem;}
+.bh_lg {padding: .7rem 1.6rem;font-size: 16px;}
+
+.btn_box {position: relative;display: block;overflow: hidden;text-align: center;}
+.btn_box.left {text-align: left;}
+.btn_box.right {text-align: right;}
+.btn_box.asbtn {position: absolute;bottom: -60px;left: 0}
+.btn_box.asbtn .btn {height: 30px;line-height: 30px;padding: 0 10px}
+
+@media only screen and (max-width:640px){
+    .bw_xs {min-width: 40px}
+    .bw_sm {min-width: 60px}
+    .bw_md {min-width: 80px}
+    .bw_lg {min-width: 100px}
+
+    .bh_sm {padding: 3px 8px;}
+    .bh_lg {padding: 7px 20px;font-size: 15px}
+}
+@media only screen and (max-width:420px){
+    .bh_sm {padding: 3px 8px;}
+    .bh_lg {padding: 7px 20px;}
+}

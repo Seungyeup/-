@@ -1,0 +1,104 @@
+
+html, body {width: 100%;height: 100%;}
+body {overflow: auto;background: #eff2f4}
+
+#doc {position: relative;width: 100%;overflow: hidden}
+#pg_code {position: relative;display: block;padding-top: 80px}
+
+@media all and (max-width:1300px) {
+    #doc {width: 1300px;}
+    #header {width: 1300px;}
+}
+
+
+/*------------------------------------------------ 헤더 ------------------------------------------------*/
+
+#header_wrap {position: fixed;top: 0;left: 0;width: 100%;display: block;overflow: hidden;background: #fff;height: 55px;border-bottom: 2px solid #095db3;z-index: 500}
+#header {position: relative;display: block;overflow: hidden}
+#header .admin_logo {position: relative;display: block;float: left;width: 220px;height: 55px;}
+#header .admin_logo a {display: block;width: 100%;height: 100%;text-indent: -99999px;background: url("/renew/admin/share/img/logo.png") no-repeat center;background-size: 150px;}
+
+#topNavi {position: relative;display: block;float: left;overflow: hidden}
+#topNavi li {position: relative;float: left;}
+#topNavi li:after {position: absolute;top: 50%;left: 0;width: 1px;height: 40px;margin-top: -20px;background: #e5e5e5;content: "";z-index: 0}
+#topNavi li a {position: relative;display: block;padding: 19px 25px;text-align: center;-webkit-transition-duration: 0.2s;transition-duration: 0.2s;}
+#topNavi li a .txt {display: block;font-size: 16px}
+#topNavi li.active a {color: #fff;background: #095db3;z-index: 10}
+
+.right_group {position: relative;float: right;padding: 12px 20px;overflow: hidden}
+.right_group .user_name {float: left;font-size: 13px;color: #888;line-height: 32px;}
+.right_group .user_name b {color: #095db3;font-weight: 500}
+.right_group .btnBox {float: left;}
+.right_group .btnBox a {float: left;height: 32px;background: #eee;padding: 0 15px;border-radius: 32px;margin-left: 5px;line-height: 32px;font-size: 13px}
+.right_group .btnBox a.logout {background: #152332;color: #fff;}
+
+@media all and (max-width:1400px) {
+    #topNavi li a {padding: 16px 16px;}
+    #topNavi li a .txt {font-size: 15px}
+}
+
+/*------------------------------------------------ 컨텐츠 영역 ------------------------------------------------*/
+
+#container_wrap {position: relative;display: block;overflow: hidden;padding: 30px 30px 0 250px;z-index: 0}
+#contents_wrap {position: relative;display: block;overflow: hidden}
+#contents {position: relative;display: block;overflow: hidden;background: #fff;;min-height: 600px;padding: 30px;}
+
+#sideNav_wrap {position: fixed;top: 0;left: 0;width: 220px;height: calc(100% - 55px);overflow-y: auto;background: #fff;padding-top: 55px;z-index: 10}
+#sideNav_wrap .sideTitle {position: relative;display: block;text-align: center;padding: 30px 0;border-bottom: 1px solid #e3e3e3;z-index: 25}
+#sideNav_wrap .sideTitle h2 {display: block;font-size: 25px;color: #333;line-height: 120%;}
+
+#sideNav {position: relative;display: block;overflow: hidden;}
+#sideNav .side_dep1 {position: relative;display: block;overflow: hidden;border-bottom: 1px solid #ddd;}
+#sideNav .side_a1 {position: relative;display: block;font-size: 14px;padding: 13px 40px 13px 15px;}
+#sideNav .side_dep1.active .side_a1 {background: #3b444e;color: #fff;font-weight: 500}
+#sideNav .side_dep1.extend .side_a1:after {display: block;position: absolute;top: 50%;right: 15px;margin-top: -8px;width:15px;height:16px;line-height: 16px;font-family: 'lineawesome' !important;content: "\f112";color: #999;z-index: 10}
+#sideNav .side_dep1.extend.active .side_a1:after {content: "\f110";color: #fff}
+
+#sideNav .sideNav_sub {position: relative;background: #f6f6f6;border-top: 1px solid #ddd;padding: 15px;}
+#sideNav .side_dep2 {position: relative;display: block;overflow: hidden;}
+#sideNav .side_a2 {position: relative;display: block;line-height: 20px;font-size: 13px;padding: 5px 0 5px 10px;}
+#sideNav .side_a2:after {position: absolute;top: 15px;left: 0;width: 5px;height: 1px;background: #999;content: "";}
+#sideNav .side_a2:hover {color: #095db3}
+#sideNav .side_a2:hover:after {color: #095db3}
+#sideNav .side_dep2.active .side_a2 {color: #095db3;font-weight: 500}
+
+.contents_title {position: relative;display: block;overflow: hidden;margin-bottom: 15px}
+.contents_title h3 {display: block;font-size: 30px;color: #151515;line-height: 120%}
+.pageNav {position: absolute;top: 50%;right: 0;margin-top: -10px;}
+.pageNav li {position: relative;float: left;margin-right: 20px;line-height: 20px;color: #8c92a4;font-size: 12px;letter-spacing: 0}
+.pageNav li:after {position: absolute;top: 0;right: -12px;width: 4px;height: 20px;line-height: 18px;text-align: center;content: "-";}
+.pageNav li:last-child {margin-right: 0}
+.pageNav li:last-child:after {display: none}
+
+/*------------------------------------------------ 하단 영역 ------------------------------------------------*/
+
+#footer_wrap {position: relative;display: block;padding: 10px 0 10px 250px;z-index: 0}
+#footer {position: relative;display: block;text-align: center;font-size: 11px;letter-spacing: 0;color: #999}
+
+
+/*------------------------------------------------ 로그인 영역 ------------------------------------------------*/
+
+.login_wrap {position: fixed;top: 50%;left: 50%;margin: -200px 0 0 -200px;display: block;width: 400px;height: 400px;}
+.login_box {position: relative;display: block;padding: 40px 30px;background: #fff;border-radius: 7px;box-shadow: 0 4px 8px 0 rgba(0,0,0,0.12), 0 2px 4px 0 rgba(0,0,0,0.08);}
+.login_box .logo {position: relative;display: block;text-align: center;margin: 0 auto 30px;}
+.login_box .logo img {width: 200px;}
+.login_box .logo .txt {display: block;font-size: 25px;line-height: 150%;font-weight: 600;color: #b5bac7;margin-top: 10px}
+.login_box ul {display: block;}
+.login_box li {display: block;margin: 5px 0;overflow: hidden}
+.login_box li .inputBox {position: relative;display: block;border: 1px solid #d9e3e9;border-radius: 5px;height: 45px;padding-left: 120px;}
+.login_box li .inputBox label {position: absolute;top: 0;left: 0;width: 105px;height: 45px;line-height: 45px;font-size: 15px;color: #555;padding-left: 15px;cursor: inherit}
+.login_box li .inputBox label:after {position: absolute;top: 50%;right: 10px;width: 1px;height: 26px;margin-top: -13px;background: #d9e3e9;content: "";z-index: 0 }
+.login_box li .inputBox input[type='text'], .login_box li .inputBox input[type='password'] {border: none !important;line-height: 45px;height: 45px;padding: 0;margin: 0}
+.login_box li.chek_li {margin: 10px 0;}
+.login_box li .loginBtn {position: relative;display: block;width: 100%;border-radius: 5px;height: 45px;line-height: 45px;background: #095db3;border: none;text-align: center;color: #fff;font-size: 18px}
+
+/*------------------------------------------------ 팝업 영역 ------------------------------------------------*/
+
+#popup_doc {position: relative;width: 100%;overflow: hidden}
+#popup_pg_code {position: relative;display: block}
+
+#popup_header {position: relative;display: block;overflow: hidden;padding: 20px;background: #313a46}
+#popup_header h1 {display: block;color: #fff;font-size: 20px;text-align: center}
+
+#popup_container {position: relative;display: block;padding: 15px;}
+#popup_contents {position: relative;display: block;overflow: hidden;background: #fff;padding: 20px;min-height: 200px}

@@ -1,0 +1,133 @@
+
+/*검색필터*/
+.cont_search_wrap {position: relative;display: block;overflow: hidden;border: 1px solid #dee2e6;background: #fafafa;padding: 20px 25px;border-radius: 7px;margin-bottom: 10px}
+.cont_search_wrap dl {position: relative;display: block;overflow: hidden;padding-left: 120px;padding-bottom: 10px;border-bottom: 1px dotted #ccc;margin-bottom: 10px;}
+.cont_search_wrap dl:last-child {padding-bottom: 0;margin-bottom: 0;border: none;}
+.cont_search_wrap dt {position: absolute;top: 0;left: 0;width: 110px;height: 36px;line-height: 36px;font-weight: 600;color: #333;}
+.cont_search_wrap dd {display: block;min-height: 34px;}
+.cont_search_wrap dd .radio, .cont_search_wrap dd .checkbox {margin-top: 8px;margin-bottom: 8px;}
+.cont_search_wrap select {min-width: 150px;width: auto;margin: 0 2px}
+.cont_search_wrap input[type=text] {margin: 0 2px}
+.cont_search_wrap .search_input {width: 300px;}
+.cont_search_wrap .search {width: 100px}
+.cont_search_wrap .btn {height: 32px;line-height: 32px;padding: 0 15px;font-size: 13px}
+
+.form_block {position: relative;display: block;overflow: hidden;margin-bottom: 5px}
+.form_block:last-child {margin-bottom: 0}
+.form_group {display: flex;float: left;overflow: hidden;margin: 2px}
+.form_group.fr {float: right}
+.group_btn {display: block;overflow: hidden}
+.group_btn li {float: left;}
+.input_group_text {float: left;line-height: 2rem;margin: 0 5px}
+.input_group_icon {float: left;border-radius: 4px;background: #e9ecef;width: 50px;text-align: center;height: 32px;line-height: 31px;font-size: 16px;color: #495057;border:1px solid #d9e3e9;border-top-right-radius: 0;border-bottom-right-radius: 0;}
+.calendar {border-top-left-radius: 0 !important;border-bottom-left-radius: 0 !important;margin-left: -3px !important;}
+
+.cont_search_wrap .total {line-height: 34px}
+
+/*리스트 탑*/
+.listTbl_top {position: relative;display: block;overflow: hidden;margin-bottom: 10px;height: 34px;line-height: 34px}
+.listTbl_top .ad_tit02:after {top: 13px;}
+.listTbl_top .align {position: relative;display: block;overflow: hidden;height: 34px;}
+.listTbl_top .align select {float: left;width: 150px;margin: 0 2px}
+.listTbl_top .btn {height: 32px;padding: 0 20px !important;margin: 0 2px}
+
+.total {display: inline-block;}
+.total .num {display: inline-block;color: #095db3;letter-spacing: 0;}
+
+/*목록리스트*/
+.listTbl {position: relative;display: block;font-size: 13px;}
+.listTbl table {border-collapse: collapse;border-spacing: 0;table-layout: fixed;width: 100%;clear: both;text-align: center;border-top: 1px solid #dee2e6;}
+.listTbl th, .listTbl td {border: 1px solid #dee2e6;word-wrap: break-word;}
+.listTbl th {padding: 7px 5px;}
+.listTbl td {padding: 5px 3px;}
+.listTbl td {text-align: center;}
+.listTbl thead th {color: #333;background: #fff;border-bottom: 2px solid #dee2e6;font-weight: 600}
+.listTbl tr:nth-child(odd) td {background: #f3f6f8;}
+.listTbl .c {text-align: center}
+.listTbl .l {text-align: left;padding: 5px 7px}
+.listTbl .r {text-align: right}
+
+/*폼*/
+.writeTbl {position: relative;display: block;font-size: 13px;}
+.writeTbl table {border-collapse: collapse;border-spacing: 0;table-layout: fixed;width: 100%;clear: both;text-align: center;border-top: 1px solid #dee2e6;}
+.writeTbl th, .writeTbl td {border: 1px solid #dee2e6;word-wrap: break-word;padding: 7px 5px}
+.writeTbl td {text-align: left;}
+.writeTbl th {font-weight: 600;color: #333;background: #f3f6f8;text-align: center}
+.writeTbl td img {max-width: 100%;}
+
+/*리스트*/
+.boardLst {position: relative;display: block;}
+.boardLst table {border-collapse: collapse;border-spacing: 0;table-layout: fixed;width: 100%;clear: both;text-align: center;border-top: 1px solid #dee2e6;}
+.boardLst thead th {color: #333;background: #fff;border-bottom: 2px solid #dee2e6;font-weight: 600}
+.boardLst th, .boardLst td {padding: 10px;border-bottom: 1px solid #dee2e6;word-wrap: break-word;}
+.boardLst td {text-align: center;}
+.boardLst tr.notice {background: #f3f6f8;}
+.boardLst .title {display: inline-block;}
+.boardLst .title:hover {text-decoration: underline}
+.boardLst .c {text-align: center}
+.boardLst .l {text-align: left;padding: 5px 15px}
+.boardLst .r {text-align: right}
+
+/*포토리스트*/
+.photoLst {position: relative;display: block;border-top: 2px solid #dee2e6;overflow: hidden;padding: 10px;margin-top: 20px;}
+.photoLst ul {overflow: hidden}
+.photoLst li {float: left;width: calc(25% - 20px);margin: 10px;overflow: hidden;border: 1px solid #dee2e6;box-sizing: border-box}
+.photoLst li a {display: block;}
+.photoLst li .zoomImg {position: relative;display: block;width: 100%;height: 200px;overflow: hidden}
+.photoLst li .zoomImg img {width: 100%;height: 100%;}
+.photoLst li .zoomImg:after, .photoLst li .zoomImg:before {-webkit-transition-duration: 0.2s;transition-duration: 0.2s;}
+.photoLst li .zoomImg:after {opacity: 0;position: absolute;top: 0;left: 0;width: 100%;height: 100%;background:rgba(0,0,0,0.7);content: "";z-index: 0}
+.photoLst li .zoomImg:before {opacity: 0;position: absolute;top: 50%;left: 50%;width: 50px;height: 50px;margin: -25px 0 0 -25px;text-align: center;line-height: 50px;content: "\e9b2";color: #fff;font-size: 50px;font-weight: 100;font-family: 'Feather' !important;z-index: 1}
+.photoLst li .txtBox {position: relative;display: block;padding: 20px;}
+.photoLst li .txtBox .title {display: block;width: 100%;color: #333;font-size: 14px;text-overflow: ellipsis;overflow: hidden;white-space: nowrap;line-height: 130%}
+.photoLst li .txtBox .date {display: block;color: #888;font-size: 13px;margin-top: 5px}
+.photoLst li a:hover .zoomImg:after, .photoLst li a:hover .zoomImg:before {opacity: 1;}
+.photoLst li a:hover .title {color: #095db3}
+
+/*게시판 뷰*/
+.boardViw {position: relative;display: block;border-top: 2px solid #dee2e6;}
+.boardViw_top {position: relative;display: block;overflow: hidden;}
+.boardViw_top .boardViw_title {position: relative;display: block;padding: 20px 30px;border-bottom: 1px solid #dee2e6;font-size: 17px;color: #333;font-weight: 600;line-height: 120%}
+.boardViw_top .boardViw_info {position: relative;display: block;padding: 20px 30px;border-bottom: 1px solid #dee2e6;}
+.boardViw_top .boardViw_info ul {overflow: hidden}
+.boardViw_top .boardViw_info li {float: left;color: #777;margin-right: 25px;}
+.boardViw_top .boardViw_info li:last-child {margin-right: 0}
+.boardViw_top .boardViw_info li .title {position: relative;display: inline-block;margin-right: 15px;line-height: 22px;color: #333}
+.boardViw_top .boardViw_info li .title:after {position: absolute;top: 50%;right: -8px;width: 1px;height: 12px;margin-top: -5px;background: #ccc;content: "";z-index: 0}
+
+.boardViw_file {position: relative;display: block;background: #f3f6f8;padding: 15px 30px 15px 120px;}
+.boardViw_file .title {position: absolute;top: 15px;left: 30px;width: 80px;line-height: 22px;color: #333}
+.boardViw_file ul {display: block;overflow: hidden}
+.boardViw_file li {display: block;margin: 2px 20px 2px 0;float: left;}
+.boardViw_file li:last-child {margin-right: 0}
+.boardViw_file li a {display: inline-block;line-height: 22px;font-size: 14px;}
+.boardViw_file li a:hover {text-decoration: underline}
+
+.boardViw_cont {position: relative;display: block;padding: 30px;border-bottom: 1px solid #dee2e6;border-top: 1px solid #dee2e6;line-height: 160%}
+.boardViw_cont img {max-width: 100%;}
+
+.no_data {position: relative;display: block;padding: 30px 0;text-align: center;overflow: hidden;clear: both;}
+.no_data .icon {display: inline-block;width: 80px;height: 80px;text-align: center;line-height: 80px;border-radius: 50%;font-size: 35px;background: #f3f6f8}
+.no_data .txt {display: block;margin-top: 15px;}
+
+/*페이징*/
+.pagination {font-size: 0;text-align: center;margin-top: 25px}
+.pagination li {display: inline-block;vertical-align: top;}
+.pagination li a {position: relative;display: block;width: 30px;height: 35px;font-size: 13px;border: 1px solid #dee2e6;line-height: 35px;color: #313a46;background: #fff;border-radius: 5px;margin: 0 2px}
+.pagination li a:hover {background: #e3eaef}
+.pagination li a.active {border: 1px solid #095db3;background: #095db3;color: #fff;}
+
+.pagination li.first a, .pagination li a.first,
+.pagination li.last a, .pagination li a.last,
+.pagination li.prev a, .pagination li a.prev,
+.pagination li.next a, .pagination li a.next {text-indent: -9999px}
+
+.pagination li.first a:after, .pagination li a.first:after,
+.pagination li.last a:after, .pagination li a.last:after,
+.pagination li.prev a:after, .pagination li a.prev:after,
+.pagination li.next a:after, .pagination li a.next:after {position: absolute;top: 0;left: 0;width: 30px;height: 35px;line-height: 35px;text-indent: 0;font-family: lineawesome !important;font-size: 15px}
+
+.pagination li.first a:after, .pagination li a.first:after {content: "\f10d"}
+.pagination li.last a:after, .pagination li a.last:after {content: "\f10e"}
+.pagination li.prev a:after, .pagination li a.prev:after {content: "\f111"}
+.pagination li.next a:after, .pagination li a.next:after {content: "\f112"}

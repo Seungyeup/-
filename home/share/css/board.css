@@ -1,0 +1,340 @@
+@charset "utf-8";
+
+
+/*--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+	검색필터
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+.cont_search_wrap {position: relative;display: block;overflow: hidden;text-align: center;border: 1px solid #dee2e6;background: #fafafa;padding: 20px 25px;border-radius: 3px;margin-bottom: 10px}
+.cont_search_wrap dl {position: relative;display: block;overflow: hidden;padding-left: 120px;padding-bottom: 10px;border-bottom: 1px dotted #ccc;margin-bottom: 10px;}
+.cont_search_wrap dl:last-child {padding-bottom: 0;margin-bottom: 0;border: none;}
+.cont_search_wrap dt {position: absolute;top: 0;left: 0;width: 110px;height: 36px;line-height: 36px;font-weight: 600;color: #333;}
+.cont_search_wrap dd {display: block;min-height: 34px;}
+.cont_search_wrap dd .radio, .cont_search_wrap dd .checkbox {margin-top: 8px;margin-bottom: 8px;}
+.cont_search_wrap select {min-width: 150px;width: auto;margin: 0 2px}
+.cont_search_wrap input[type=text] {margin: 0 2px}
+.cont_search_wrap .search_input {width: 300px;}
+.cont_search_wrap .search {width: 100px}
+.cont_search_wrap .btn {padding: 3px 8px}
+
+.form_block {position: relative;display: block;overflow: hidden;margin-bottom: 5px}
+.form_block:last-child {margin-bottom: 0}
+.form_group {display: inline-block;vertical-align: top;overflow: hidden;margin: 2px 0}
+.form_group.fr {float: right}
+.group_btn {display: block;overflow: hidden}
+.group_btn li {float: left;}
+.input_group_text {float: left;line-height: 2rem;margin: 0 10px}
+.input_group_text.mr0 {margin-left: 0}
+.calendar {position: relative;}
+.calendar input[type=text] {position: relative;padding-right: 30px;margin: 0;z-index: 0}
+.calendar:before {position: absolute;top: 1px;right: 5px;width: 20px;height: 20px;display: block;content: "";background: url("/renew/home/share/img/board/calendar-ico.png") no-repeat center;z-index: 10}
+
+.cont_search_wrap .total {line-height: 37px}
+
+/*--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+	리스트 탑
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+.listTbl_top {position: relative;display: block;overflow: hidden;margin-bottom: 10px;height: 34px;line-height: 34px}
+.listTbl_top .ad_tit02:after {top: 13px;}
+.listTbl_top .align {position: relative;display: block;overflow: hidden;height: 34px;}
+.listTbl_top .align select {float: left;width: 150px;margin: 0 2px}
+.listTbl_top .btn {height: 32px;padding: 0 20px !important;margin: 0 2px}
+
+.total {display: inline-block;}
+.total .la {display: inline-block;font-size: 21px;line-height: 37px;vertical-align: top}
+.total .num {display: inline-block;color: #09aaa4;letter-spacing: 0;}
+
+/*--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+	목록리스트
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+.listTbl {position: relative;display: block;font-size: 13px;}
+.listTbl table {border-collapse: collapse;border-spacing: 0;table-layout: fixed;width: 100%;clear: both;text-align: center;border-top: 1px solid #dee2e6;}
+.listTbl th, .listTbl td {border: 1px solid #dee2e6;word-wrap: break-word;}
+.listTbl th {padding: 7px 5px;}
+.listTbl td {padding: 5px 3px;}
+.listTbl td {text-align: center;}
+.listTbl thead th {color: #333;background: #fff;border-bottom: 2px solid #dee2e6;font-weight: 600}
+.listTbl tr:nth-child(odd) td {background: #f3f6f8;}
+.listTbl .c {text-align: center}
+.listTbl .l {text-align: left;padding: 5px 7px}
+.listTbl .r {text-align: right}
+
+/*--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+	글쓰기 폼
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+.writeTbl {position: relative;display: block;}
+.writeTbl table {border-collapse: collapse;border-spacing: 0;table-layout: fixed;width: 100%;clear: both;text-align: center;border-top: 1px solid #dee2e6;}
+.writeTbl th, .writeTbl td {border: 1px solid #dee2e6;word-wrap: break-word;padding: 7px 10px}
+.writeTbl td {text-align: left;}
+.writeTbl th {font-weight: 600;color: #333;background: #f3f6f8;text-align: center}
+.writeTbl .radio label, .writeTbl .checkbox label {line-height: 18px}
+
+.board-pass{width:90%;max-width: 400px;margin:0 auto; background:#f7f7f7; border:1px solid #d8dbe2;padding: 50px 30px;text-align:center;}
+.board-pass .btxt{font-size:23px;color: #333;padding-bottom:10px; line-height:110%}
+.board-pass .stxt{font-size:14px;padding-bottom:20px;}
+.board-pass input[type='password']{ max-width: 200px;}
+
+
+/*--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+	리스트
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+.boardLst {position: relative;display: block;}
+.boardLst table {border-collapse: collapse;border-spacing: 0;table-layout: fixed;width: 100%;clear: both;text-align: center;border-top: 1px solid #dee2e6;}
+.boardLst thead th {color: #333;background: #fff;border-bottom: 2px solid #dee2e6;font-weight: 600}
+.boardLst th, .boardLst td {padding: 10px;border-bottom: 1px solid #dee2e6;word-wrap: break-word;}
+.boardLst td {text-align: center;}
+.boardLst a {display: block;color: #333;}
+.boardLst .la-bell, .boardLst .la-file {font-size: 18px}
+.boardLst .la-bell {color: #09aaa4}
+.boardLst tr.notice {background: #f3f6f8;}
+.boardLst .title {display: inline-block;}
+.boardLst .title:hover {text-decoration: underline}
+.boardLst .c {text-align: center}
+.boardLst .l {text-align: left;padding: 5px 15px}
+.boardLst .r {text-align: right}
+.boardLst .board_file {position: relative;display: inline-block;vertical-align: top;margin: 1px 0;width: 16px;text-align: center}
+.boardLst .board_file .txt {display: none;position: absolute;bottom: 27px;left: 50%;width: 120px;height: auto;margin-left: -75px;padding: 5px 15px;border-radius: 5px;background: rgba(0,0,0,0.75);color: #fff;font-size: 11px;letter-spacing: 0}
+.boardLst .board_file .txt:after {position: absolute;bottom: -10px;left: 50%;margin-left: -5px;content: "";display:block; width:0; height:0; border-style:solid; border-width:5px;border-color: rgba(0,0,0,0.75) transparent transparent transparent;}
+.boardLst .board_file:hover .txt {display: block}
+
+/*--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+	포토리스트
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+.photoLst {position: relative;display: block;border-top: 2px solid #dee2e6;overflow: hidden;padding: 10px;margin-top: 20px;}
+.photoLst ul {overflow: hidden}
+.photoLst li {float: left;width: calc(25% - 20px);margin: 10px;overflow: hidden;border: 1px solid #dee2e6;box-sizing: border-box}
+.photoLst li a {display: block;color: #333;}
+.photoLst li .zoomImg {position: relative;display: block;width: 100%;height: 245px;overflow: hidden}
+.photoLst li .zoomImg img {width: 100%;height: 100%;}
+.photoLst li .zoomImg:after, .photoLst li .zoomImg:before {-webkit-transition-duration: 0.2s;transition-duration: 0.2s;}
+.photoLst li .zoomImg:after {opacity: 0;position: absolute;top: 0;left: 0;width: 100%;height: 100%;background:rgba(0,0,0,0.7);content: "";z-index: 0}
+.photoLst li .zoomImg:before {opacity: 0;position: absolute;top: 50%;left: 50%;width: 50px;height: 50px;margin: -25px 0 0 -25px;text-align: center;line-height: 50px;content: "\f2c3";color: #fff;font-size: 50px;font-weight: 100;font-family: lineawesome !important;z-index: 1}
+.photoLst li .txtBox {position: relative;display: block;padding: 15px;}
+.photoLst li .txtBox .title {display: block;width: 100%;color: #333;font-size: 14px;text-overflow: ellipsis;overflow: hidden;white-space: nowrap;line-height: 130%}
+.photoLst li .txtBox .date {display: block;color: #888;font-size: 13px;margin-top: 5px}
+.photoLst li a:hover .zoomImg:after, .photoLst li a:hover .zoomImg:before {opacity: 1;}
+.photoLst li a:hover .title {color: #09aaa4}
+
+/*--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+	교재리스트
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+.bookLst {position: relative;display: block;border-top: 2px solid #dee2e6;border-bottom: 1px solid #dee2e6;overflow: hidden;padding: 20px 0;margin-top: 20px;}
+.bookLst ul {overflow: hidden}
+.bookLst li {float: left;width: 205px;margin: 15px;overflow: hidden;box-sizing: border-box}
+.bookLst li a {display: block;color: #333;}
+.bookLst li .img {position: relative;display: block;width: 100%;height: 278px;overflow: hidden;border: 1px solid #ddd;}
+.bookLst li .img img {width: 100%;height: 100%;}
+.bookLst li .img:after, .bookLst li .img:before {-webkit-transition-duration: 0.2s;transition-duration: 0.2s;}
+.bookLst li .img:after {opacity: 0;position: absolute;top: 0;left: 0;width: 100%;height: 100%;background:rgba(0,0,0,0.7);content: "";z-index: 0}
+.bookLst li .img:before {opacity: 0;position: absolute;top: 50%;left: 50%;width: 50px;height: 50px;margin: -25px 0 0 -25px;text-align: center;line-height: 50px;content: "\f2c3";color: #fff;font-size: 50px;font-weight: 100;font-family: lineawesome !important;z-index: 1}
+.bookLst li .title {display: block;width: 100%;color: #333;font-size: 15px;font-weight: 600;text-align: center;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;margin-top: 10px;}
+.bookLst li a:hover .title {color: #09aaa4}
+.bookLst li a:hover .img:after, .bookLst li a:hover .img:before {opacity: 1;}
+
+/*--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+	게시판 뷰
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+.boardViw {position: relative;display: block;border-top: 2px solid #dee2e6;}
+.boardViw_top {position: relative;display: block;overflow: hidden;}
+.boardViw_top .boardViw_title {position: relative;display: block;padding: 20px 30px;border-bottom: 1px solid #dee2e6;font-size: 16px;color: #333;font-weight: 600;line-height: 120%;background: #f6f6f6}
+.boardViw_top .boardViw_info {position: relative;display: block;padding: 20px 30px;border-bottom: 1px solid #dee2e6;}
+.boardViw_top .boardViw_info ul {overflow: hidden}
+.boardViw_top .boardViw_info li {float: left;color: #777;margin-right: 25px;}
+.boardViw_top .boardViw_info li:last-child {margin-right: 0}
+.boardViw_top .boardViw_info li .title {position: relative;display: inline-block;margin-right: 15px;line-height: 22px;color: #333}
+.boardViw_top .boardViw_info li .title:after {position: absolute;top: 50%;right: -8px;width: 1px;height: 12px;margin-top: -5px;background: #ccc;content: "";z-index: 0}
+
+.boardViw_file {position: relative;display: block;background: #f3f6f8;padding: 15px 30px 15px 120px;}
+.boardViw_file .title {position: absolute;top: 15px;left: 30px;width: 80px;line-height: 22px;color: #333}
+.boardViw_file ul {display: block;overflow: hidden}
+.boardViw_file li {display: block;margin: 2px 20px 2px 0;float: left;}
+.boardViw_file li:last-child {margin-right: 0}
+.boardViw_file li a {display: inline-block;line-height: 22px;font-size: 14px;color: #666}
+.boardViw_file li a .la {font-size: 15px;vertical-align: middle}
+.boardViw_file li a:hover {text-decoration: underline}
+
+.boardViw_cont {position: relative;display: block;padding: 30px;border-bottom: 1px solid #dee2e6;border-top: 1px solid #dee2e6;line-height: 160%}
+.boardViw_cont img {max-width: 100%;}
+
+.bookViw {position: relative;display: block;border-top: 2px solid #dee2e6;border-bottom: 1px solid #dee2e6;padding: 30px 0}
+
+.no_data {position: relative;display: block;padding: 30px 0;text-align: center;overflow: hidden;clear: both;}
+.no_data .icon {display: inline-block;width: 80px;height: 80px;text-align: center;line-height: 80px;border-radius: 50%;font-size: 35px;background: #f3f6f8}
+.no_data .txt {display: block;margin-top: 15px;}
+
+/*--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+	페이징
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+.pagination {font-size: 0;text-align: center;margin-top: 25px}
+.pagination li {display: inline-block;vertical-align: top;}
+.pagination li a {position: relative;display: block;width: 30px;height: 35px;font-size: 13px;border: 1px solid #dee2e6;line-height: 35px;color: #313a46;background: #fff;border-radius: 5px;margin: 0 2px}
+.pagination li a:hover {background: #e3eaef}
+.pagination li a.active {border: 1px solid #09aaa4;background: #09aaa4;color: #fff;}
+
+.pagination li.first a, .pagination li a.first,
+.pagination li.last a, .pagination li a.last,
+.pagination li.prev a, .pagination li a.prev,
+.pagination li.next a, .pagination li a.next {text-indent: -9999px}
+
+.pagination li.first a:after, .pagination li a.first:after,
+.pagination li.last a:after, .pagination li a.last:after,
+.pagination li.prev a:after, .pagination li a.prev:after,
+.pagination li.next a:after, .pagination li a.next:after {position: absolute;top: 0;left: 0;width: 30px;height: 35px;line-height: 35px;text-indent: 0;font-family: lineawesome !important;font-size: 15px}
+
+.pagination li.first a:after, .pagination li a.first:after {content: "\f10d"}
+.pagination li.last a:after, .pagination li a.last:after {content: "\f10e"}
+.pagination li.prev a:after, .pagination li a.prev:after {content: "\f111"}
+.pagination li.next a:after, .pagination li a.next:after {content: "\f112"}
+
+/*--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+	갤러리 줌
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+.zoomImg img { -webkit-transform:scale(1);
+    -moz-transform:scale(1);
+    -ms-transform:scale(1);
+    -o-transform:scale(1);
+    transform:scale(1);
+    -webkit-transition:.4s;
+    -moz-transition:.4s;
+    -ms-transition:.4s;
+    -o-transition:.4s;
+    transition:.4s;}
+
+a:hover .zoomImg img {
+    -webkit-transform:scale(1.2);
+    -moz-transform:scale(1.2);
+    -ms-transform:scale(1.2);
+    -o-transform:scale(1.2);
+    transform:scale(1.2);
+}
+
+.btn {  padding: 5px 15px; }
+.btn_round {border-radius: 3px;}
+
+.bh_sm {padding: 3px 8px;}
+.bh_lg {padding: 7px 20px;}
+
+
+@media only screen and (max-width:1024px) {
+
+    .cont_search_wrap {text-align: center}
+    .cont_search_wrap .form_group {float: none;display: inline-block}
+    .cont_search_wrap .btn {padding: 5px 8px 4px}
+    .cont_search_wrap .fr {float: none;}
+
+    .cont_search_wrap select {width: 100%;margin: 0;box-sizing: border-box;}
+    .cont_search_wrap .search_input {width: 100%;margin: 0;padding: 0;box-sizing: border-box;}
+    .cont_search_wrap input[type=text] {margin: 0}
+    .cont_search_wrap .btn {width: 100%;margin: 0;box-sizing: border-box;padding: 0 15px;height: 34px;line-height: 34px;}
+
+    .form_group {display: flex;float: none;}
+    .form_group.fr {float: none !important;}
+    .group_btn li {float: left;}
+
+    .total {display: none;}
+
+    .boardLst .m-none {display: none}
+    .boardLst .m-date {width: 100px}
+
+    .boardViw_top .boardViw_title {padding: 15px 10px;font-size: 15px;line-height: 140%}
+    .boardViw_top .boardViw_info {padding: 10px;}
+    .boardViw_top .boardViw_info li {margin-right: 10px;font-size: 13px}
+
+    .boardViw_file {padding: 10px 15px 10px 80px;font-size: 13px}
+    .boardViw_file .title {left: 10px;width: 60px;}
+
+    .boardViw_cont {padding: 15px 0;font-size: 13px}
+
+    .photoLst li {width: calc(33.33% - 10px);margin: 5px;}
+    .photoLst li .zoomImg {height: 170px;}
+    .photoLst li .txtBox .title {text-overflow: ellipsis;display: -webkit-box;-webkit-line-clamp: 2;-webkit-box-orient: vertical;white-space: inherit;line-height: 140%}
+
+    .bookLst li {width: calc(25% - 20px);margin: 15px 10px;text-align: center}
+    .bookLst li .img {height: auto;}
+    .bookLst li .title {font-size: 14px;height: 37px;text-overflow: ellipsis;display: -webkit-box;-webkit-line-clamp: 2;-webkit-box-orient: vertical;white-space: inherit;line-height: 140%}
+
+}
+
+@media only screen and (max-width:680px){
+
+    .form_group {display: block;width: 100%}
+
+    .writeTbl .msize {width: 80px !important}
+
+    .boardLst {font-size: 13px;}
+    .boardLst th, .boardLst td {padding: 10px 5px;line-height: 140%}
+    .boardLst .l {padding: 5px 0}
+
+    .photoLst {padding: 10px 0}
+    .photoLst li {width: calc(50% - 10px);}
+    .photoLst li .zoomImg {height: 150px;}
+    .photoLst li .txtBox .title {font-size: 13px;}
+
+    .bookLst li .title {font-size: 13px;}
+
+    .bh_sm {padding: 3px 8px;}
+    .bh_lg {padding: 7px 20px;}
+
+    .boardViw_top .boardViw_title {padding: 10px;font-size: 14px;}
+    .boardViw_top .boardViw_info li {margin-right: 7px;font-size: 12px}
+
+    .bookLst li {width: calc(33.33% - 20px);}
+    .bookLst li .title {font-size: 13px}
+
+}
+
+@media only screen and (max-width:480px){
+    .writeTbl th, .writeTbl td {font-size: 13px}
+
+    .bookLst li {width: calc(50% - 20px);}
+
+}
+
+@media only screen and (max-width:420px){
+    .bh_sm {padding: 3px 8px;font-size: 13px}
+    .bh_lg {padding: 7px 20px;font-size: 14px}
+}
+@media only screen and (max-width:400px){
+    .photoLst li {width: 100%;margin: 5px 0}
+    .photoLst li .zoomImg {height: 130px;}
+}
+
+
+
+/*--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+	FAQ
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+.fold-wrap {border: 1px solid #ddd;text-align: center;font-size: 14px;}
+.fold-wrap .view {display: block;padding: 20px 0;}
+.fold-wrap .view .arr {background: url('/renew/home/share/img/board/folds_open.svg') no-repeat 0 0;background-size: 20%;display: inline-block;width: 36px;height: 35px;vertical-align: middle;margin-left: 17px;transform: all .5s ease;transition: background .3s;}
+.fold-wrap .view.over .arr {background: url('/renew/home/share/img/board/folds_close.svg') no-repeat 0 0;background-size: 20%;transform: all .5s ease;transition: background .3s;}
+.fold-wrap .fold-cont {overflow: hidden;height: 0;background: #f7f7f6;}
+.fold-wrap .fold-cont .cont-wrap {padding: 10px 0;}
+.foldings-wrap {border-top: 1px solid #333;border-bottom: 1px solid #999;}
+.foldings-list {position: relative;width: 100%;overflow: hidden}
+.foldings-list > li {border-top: 1px solid #ddd;overflow: hidden;}
+.foldings-list > li:first-child {border-top: 0;}
+.foldings-list .foldings-in-wrap a { position: relative;display:block;background: url('/renew/home/share/img/board/folds_open.svg') no-repeat 98% center;padding: 20px 80px 20px 52px;cursor: pointer;line-height: 22px;font-size: 14px;
+    transform: all .5s ease;transition: background .3s;color: #666}
+.foldings-list .foldings-in-wrap a .num {color: #777;font-size: 14px;padding-right: 25px;}
+.foldings-list .foldings-in-wrap a .question {position: absolute;top: 50%;left: 20px;margin-top: -12px;display: inline-block;float: left;color: #fff;font-size: 15px;background: #09aaa4;width: 25px;height: 25px;
+    border-radius: 50%;overflow: hidden;text-align: center;line-height: 25px;font-weight: normal;margin-right: 5px}
+.foldings-list .foldings-in-cont {position: relative;display: none;overflow: hidden;background: #f7f7f6;padding: 30px 60px 30px 80px;border-top: 1px solid #ddd;line-height: 160%}
+.foldings-list .foldings-in-cont  .answer {position: absolute;top: 40px;left: 45px;margin-top: -12px;display: inline-block;float: left;color: #fff;font-size: 15px;background: #f3434b;width: 25px;height: 25px;
+    border-radius: 50%;overflow: hidden;text-align: center;line-height: 25px;font-weight: normal;margin-right: 5px}
+.foldings-list .over a .num {color: #333;}
+.foldings-list .over .foldings-in-cont {display: block;}
+.foldings-list .over .foldings-in-wrap a {background: url('/renew/home/share/img/board/folds_close.svg') no-repeat 98% center;transform: all .5s ease;transition: background .3s;}
+
+.foldings-list li.nodata  {position: relative;display: block;padding: 50px 0;text-align: center;font-size: 16px}
+
+@media only screen and (max-width:860px){
+    .fold-wrap {font-size: 13px;}
+    .foldings-list .foldings-in-wrap a { padding: 15px 60px 15px 40px;line-height:18px;font-size: 13px;}
+    .foldings-list .foldings-in-wrap a .num {color: #777;font-size: 13px;padding-right: 25px;}
+    .foldings-list .foldings-in-wrap a .question {left: 5px;}
+    .foldings-list .foldings-in-cont {padding: 20px 40px 20px 40px;font-size: 13px}
+    .foldings-list .foldings-in-cont  .answer {top: 30px;left: 10px;}
+
+    .foldings-list li.nodata  {padding: 30px 0;font-size: 13px}
+}
+

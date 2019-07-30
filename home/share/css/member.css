@@ -1,0 +1,184 @@
+@charset "utf-8";
+
+/*--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+	회원공통
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+.memBox {position: relative;display: block;width: 570px;padding: 50px;background: #fff;margin: 0 auto;border: 1px solid #ddd;}
+.memBox .title {position: relative;display: block;text-align: center;}
+.memBox .title .tit {display: block;font-size: 30px;color: #222;line-height: 160%;letter-spacing: -0.07em}
+.memBox .title .txt {display: block;font-size: 15px;color: #777}
+
+.member-form {position: relative;display: block;overflow: hidden;margin: 30px 0 0;border-top: 1px solid #dee2e6}
+.member-form ul {overflow: hidden;}
+.member-form li {position: relative;display: block;margin-bottom: 10px;padding: 15px 0 15px 120px;border-bottom: 1px solid #dee2e6}
+.member-form li:last-child {margin-bottom: 0}
+.member-form li .form-title {position: absolute;top: 15px;left: 0;width: 120px;line-height: 35px;display: block;font-size: 17px;color: #222;}
+.member-form li input[type=text], .member-form li input[type=password] {height: 35px;line-height: 35px;font-size: 15px;background: #fff;}
+.member-form li .loginInput {position: relative;display: block;}
+.member-form li .loginInput input[type=text], .member-form li .loginInput input[type=password] {padding-left: 40px;height: 50px;line-height: 50px;}
+.member-form li .loginInput:before {position: absolute;top: 50%;left: 40px;width: 1px;height: 20px;margin-top: -10px;background: #ddd;content: "";z-index: 10}
+.member-form li .loginInput:after {position: absolute;display: block;top: 0;left: 0;width: 40px;height: 50px;line-height: 50px;text-align: center;font-size: 21px;font-family: lineawesome;z-index: 10}
+.member-form li .loginInput.id:after {content:"\f364"}
+.member-form li .loginInput.password:after {content: "\f360"}
+.member-form li .login-btn {position: relative;display: block;background: #09aaa4;color: #fff;height: 50px;line-height: 50px;font-size: 20px;text-align: center;border-radius: 5px;}
+.member-form li .input-group {position: relative;display: block;margin: 5px 0;overflow: hidden}
+.member-form li .input-group input[type=text], .member-form li .input-group input[type=password] {width: 250px}
+.member-form li .input-stxt {position: relative;display: block;}
+.member-form li .sinput {display: inline-block;vertical-align: top;width: 100px}
+.member-form li .binput {display: inline-block;vertical-align: top;width: 100px}
+.member-form li .sinput-txt {display: inline-block;vertical-align: top;width: 20px;line-height: 35px;text-align: center}
+
+.member-form.login {margin-bottom: 30px;border-top: none}
+.member-form.login li {padding: 0;border-bottom: none}
+.member-form.login li .form-title {position: relative;top: 0;width: 100%;line-height: 25px;margin-bottom: 5px}
+
+.member-form.line-top {border-top: 2px solid #98a6ad}
+.member-form.line-top .btn {padding: 0 10px;line-height: 33px}
+
+.tlineNo {margin-top: 10px;border-top: none;}
+.tlineNo .form-title {left: 10px !important;width: 110px}
+
+/*--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+	로그인
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+.loginBox {padding: 70px 50px}
+.loginBox .membtBox {position: relative;display: block;overflow: hidden;text-align: center}
+.loginBox .membtBox li {position: relative;display: inline-block;padding-left: 17px;vertical-align: top}
+.loginBox .membtBox li:after {position: absolute;top: 4px;left: 8px;width: 1px;height: 10px;background: #ccc;content: ""}
+.loginBox .membtBox li a {display: inline-block;color: #666}
+.loginBox .membtBox li:first-child {padding-left: 0}
+.loginBox .membtBox li:first-child:after {display: none}
+
+/*--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+	회원가입
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+.join-step {position: relative;display: block;overflow: hidden;margin: 30px 0;text-align: center}
+.join-step li {position: relative;display: inline-block;vertical-align: top;margin: 0 20px}
+.join-step li:after {position: absolute;top: 0;right: -30px;width: 23px;height: 30px;font-family: lineawesome;content: "\f1c3";font-size: 25px;line-height: 30px;text-align: center;color: #bbb}
+.join-step li:last-child:after {display: none}
+.join-step li .num {position: relative;display: block;width: 30px;height: 30px;line-height: 30px;margin: 0 auto;border-radius: 50%;background: #aaa;text-align: center;color: #fff;}
+.join-step li .txt {display: block;margin-top: 5px;text-align: center;font-size: 15px;color: #888}
+.join-step li.on .num {background: #1e2c5d;}
+.join-step li.on .txt {color: #1e2c5d;}
+
+.join-agree {position: relative;display: block;overflow: hidden;border: 1px solid #dee2e6;}
+.join-agree li {position: relative;display: block;padding: 15px;border-bottom: 1px solid #dee2e6;overflow: hidden;}
+.join-agree li:first-child {background: #f6f6f6;color: #222;font-weight: 600}
+.join-agree li:last-child {border-bottom: none}
+.join-agree li .txt {display: block;line-height: 30px;font-size: 17px}
+.join-agree li .as-chek {position: absolute;top: 15px;right: 0;}
+.join-agree li .agreementBox {position: relative;display: block;padding: 10px;overflow-y: scroll;height: 90px;border: 1px solid #ddd;margin-top: 10px;background: #f6f6f6;font-size: 13px}
+
+
+.join-complete {position: relative;display: block;overflow: hidden;border: 1px solid #ddd;background: #f6f6f6;padding: 35px 25px 30px;text-align: center}
+.join-complete .title {display: block;font-size: 22px;color: #555;margin-bottom: 20px;line-height: 140%}
+.join-complete .title b {color: #222}
+.join-complete .txt {display: block;line-height: 160%}
+.join-complete .txt .enter {display: block}
+.join-complete .logo {display: block;margin-top: 15px;}
+.join-complete .logo img {width: 130px}
+
+.find-complete {position: relative;display: block;overflow: hidden;border: 1px solid #ddd;background: #f6f6f6;padding: 35px 25px 30px;text-align: center;margin: 30px 0 10px;font-size: 17px}
+.find-complete b {color: #ef4123;letter-spacing: 0}
+.find-complete small {display: block;margin-top: 10px;font-size: 13px;color: #888}
+.find-txt {position: relative;display: block;overflow: hidden;text-align: center}
+.find-txt ul {overflow: hidden;margin-top: 3px}
+.find-txt li {position: relative;display: inline-block;padding: 0 7px 0 10px;color: #888;letter-spacing: 0}
+.find-txt li:before {position: absolute;top: 4px;left: 0;width: 1px;height: 10px;background: #ccc;content: ""}
+.find-txt li:first-child:before {display: none}
+
+@media only screen and (max-width:640px){
+
+    .member-container {background: #fff;}
+
+    .memBox {width: 100%;padding: 30px 20px;margin: 0 auto;max-width: 450px;-webkit-box-shadow: none;-moz-box-shadow: none; box-shadow: none;box-sizing: border-box}
+    .memBox .title {border-bottom: 1px dotted #ccc;padding-bottom: 20px}
+    .memBox .title .tit {font-size: 19px;}
+    .memBox .title .txt {font-size: 13px;}
+
+    .member-form {margin: 20px 0}
+    .member-form li .form-title {font-size: 15px;}
+    .member-form li input[type=text], .member-form li input[type=password] {font-size: 14px;}
+    .member-form li .loginInput input[type=text], .member-form li .loginInput input[type=password] {height: 40px;line-height: 40px;font-size: 14px;}
+    .member-form li .loginInput:after {height: 40px;line-height: 40px;}
+    .member-form li .login-btn {font-size: 17px;}
+    .member-form li .input-group input[type=text], .member-form li .input-group input[type=password] {width: 100%}
+    .member-form li .input-group.addbtn input[type=text], .member-form li .input-group.addbtn input[type=password] {width: calc(100% - 95px)}
+    .member-form li .input-group.full input[type=text], .member-form li .input-group.full input[type=password] {width: calc(100%)}
+    .member-form li .sinput {width: calc(30% - 30px)}
+    .member-form li .sinput input {width: 100% !important;}
+    .member-form li .sinput-txt {width: 15px;}
+
+    .member-form li .binput {width: calc(30% - 12px)}
+    .member-form li .binput input {width: 100% !important;}
+
+    .member-form li .sinput.email {width: calc(48% - 12px)}
+    .member-form li .btn {padding: .375rem 0.5rem}
+
+    .member-form li {padding: 15px 0 15px 80px;}
+    .member-form li .form-title {width: 80px;}
+
+    .tlineNo .form-title {left: 0 !important;width: 80px}
+
+    .loginBox {max-width: 320px;padding: 60px 20px;}
+    .loginBox .title img {width: 240px}
+
+    .join-step li .txt {font-size: 14px;}
+
+    .join-agree li {padding: 15px 10px;}
+    .join-agree li .txt {line-height: 20px;font-size: 14px;padding-right: 30px}
+    .join-agree li .as-chek {top: 12px;right: -5px;}
+
+    .join-complete .title {font-size: 18px;line-height: 130%}
+    .join-complete .title .enter {display: block;}
+    .join-complete .txt {font-size: 14px;line-height: 140%}
+    .join-complete .txt .enter {display: inline }
+    .join-complete .logo img {width: 110px}
+
+}
+
+
+@media only screen and (max-width:380px){
+
+    .member-form li {padding: 15px 0;}
+    .member-form li .form-title {position: relative;top: 0;width: 100%;line-height: 25px}
+
+    .join-step li {margin: 0 13px}
+
+    .join-complete {padding: 25px 15px 20px;}
+
+}
+
+
+.h5-title {position: relative;display: block;padding-top: 7px;font-weight: 600;color: #222;font-size: 16px;line-height: 140%;margin-bottom: 7px}
+.h5-title:before {position: absolute;top: 0;left: 0;width: 20px;height: 3px;content: "";background: #ef3d58}
+
+.agreement_li {position: relative;display: block;}
+.agreement_li li {position: relative;display: block;padding-left: 18px;margin-bottom: 10px;line-height: 22px;}
+.agreement_li li:last-child {margin-bottom: 0}
+.agreement_li li span {position: absolute;top: 0;left: 0;line-height: 22px;display: inline-block;}
+
+/*--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+	회원탈퇴
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+.withdraw-wrap {position: relative;display: block;overflow: hidden}
+.withdraw-top {position: relative;display: block;padding-bottom: 34px;background: url("/renew/home/share/img/sub/pattern01.png") repeat-x bottom;}
+.withdraw-top .title {display: block;font-size: 25px;font-weight: bold;color: #222;margin-bottom: 15px}
+.withdraw-top .title i {font-style: italic;font-weight: bold;}
+
+.withdraw-cntr {position: relative;display: block;padding: 30px 0}
+
+.withdraw-chek {position: relative;display: block;overflow: hidden;border: 1px solid #d0dbe1;background: #fafafa;padding: 30px}
+.withdraw-chek li {float: left;width: 33.33%}
+
+
+@media only screen and (max-width:640px){
+    .withdraw-chek {padding: 20px}
+    .withdraw-chek li {width: 50%}
+}
+@media only screen and (max-width:400px){
+    .withdraw-chek li {font-size: 13px}
+}
+@media only screen and (max-width:360px){
+    .withdraw-chek {padding: 15px}
+}
