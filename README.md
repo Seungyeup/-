@@ -33,6 +33,6 @@
 ## How to use?
 11
 ## License
-A short snippet describing the license (MIT, Apache etc)
+A short snippet describing the license
 
-MIT © [Seungyeup LEE]()
+ © [이승엽](), [문혁준](), []()
