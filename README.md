@@ -15,11 +15,15 @@
 ## Screenshots
 
 ## Tech/framework used
-  - Python(Anaconda), COM, CYBOS Plus api, Pandas
+  - Python3.6(Anaconda), PyCharm, tensorflow
+  - konlpy,soynlp,keras,sklearn
 
 <b>Built with</b>
 - [Python3.6 (anaconda 5.2)](https://www.anaconda.com/)
 - [PyCharm](https://www.jetbrains.com/pycharm/)
+- [tensorflow](https://www.tensorflow.org/)
+- [konlpy](https://konlpy-ko.readthedocs.io/ko/v0.4.3/)
+- [soynlp](https://github.com/lovit/soynlp)
 
 ## Features
 
