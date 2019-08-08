@@ -35,4 +35,4 @@
 ## License
 A short snippet describing the license
 
- © [이승엽](), [문혁준](), []()
+ © [이승엽](), [문혁준](), 이찬영[]()
