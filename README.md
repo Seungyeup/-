@@ -35,4 +35,4 @@
 ## License
 A short snippet describing the license
 
- © [이승엽]([Seungyeup LEE]()), [문혁준](), [이찬영]()
+ © [이승엽](https://github.com/Seungyeup), [문혁준](), [이찬영]()
