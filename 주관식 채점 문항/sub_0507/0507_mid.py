@@ -113,13 +113,13 @@ result = DB_info.db_select(query,idx_0507)
 sno = result[0][4];  #학생 이메일(or 학번)
 
 #C1
-if result[0][0]=='99.8%':
+if result[0][0]=='유기산':
     total_score = total_score+1
 #C2
-if result[0][1]=='포도':
+if result[0][1]=='마늘':
     total_score = total_score+1
 #C3
-if result[0][2]=='감':
+if result[0][2]=='고춧가루':
     total_score = total_score+1
 #C4
 twitter = Twitter()
@@ -127,7 +127,7 @@ example_pos = twitter.pos(result[0][3], norm=True, stem=True)
 nltk_text = nltk.Text(example_pos, name='text')
 nltk_result = nltk_text.vocab().most_common(30)
 
-answer = [(('과일', 'Noun'), 1), (('껍질', 'Noun'), 1), (('은', 'Josa'), 1), (('먹다', 'Verb'), 1), (('좋다', 'Adjective'), 1)]
+answer = [(('발효', 'Noun'), 1), (('부패', 'Noun'), 1), (('는', 'Josa'), 1), (('인간', 'Verb'), 1), (('유익하다', 'Adjective'), 1),(('해롭다', 'Adjective'), 1)]
 n_answer = [(('안', 'VerbPrefix'), 1), (('않다', 'Verb'), 1), ]
 score = 0
 
