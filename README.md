@@ -10,13 +10,24 @@
 본 졸업과제인 학습컨설팅시스템의 검사문항들 중 주관식 채점문항은 총 4개이며, 문항의 내용은 <br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1) 지문의 핵심내용 파악하기, 2) 핵심내용 요약하기, 3) 작문하기, 4) 구체도 파악하기 이다.<br><br>
 각 문항의 채점자동화를 위해 사용할 기술은 1)머신러닝의 자연어처리(NLP)중 konlpy와 같은 파이썬 한글 라이브러리를 활용한 형태소 품사태깅, 2)NLTK를 활용한 불용어제거 및 형태소 수집, 3)Sentiment-Analysis(감성 분석)을 활용하여 텍스트에 대한 객관적인 정보 추출이다.
 
+## Institution Requirement
+- 장문의 문장들을 NLTK나 Konlpy 를 통하여 형태소 별로 분류하고 이를 품사 Tagging 할 수 있어야 한다. 그리고 한국어 형태소 분류를 할 때 이에 맞는 tag Package를 사용해야 한다. (한나눔, 꼬꼬마, 코모란, 메캅, 트위터 등등) 문장 구성에 최소한의 의미를 부여하는 단어나 필요 이상으로 쓰이는 불용어는 NLTK를 사용해 필터링 해야 한다.<br>
+
+ - 사용자가 답 입력시 이를 리눅스에 있는 batch파일을 통해 자동으로 비교하고 서버 데이터베이스(Heidi SQL)에 저장해야 한다.<br>
+ - 여러 번의 실험과 데이터 수집을 통해 정확도를 최대한 끌어올리고 최소한의 오차를 지향해야 한다. 학습 진단 검사의 답안 채점 기준을 참고하여 정답을 채점 할 수 있도록 한다.
 
 ## Build status
 [![Build Status](https://travis-ci.org/akashnimare/foco.svg?branch=master)](https://travis-ci.org/akashnimare/foco)
 [![Windows Build Status](https://ci.appveyor.com/api/projects/status/github/akashnimare/foco?branch=master&svg=true)](https://ci.appveyor.com/project/akashnimare/foco/branch/master)
 
  
-## How it works
+## NLP Algorithms that we used
+1. &nbsp;&nbsp;&nbsp;Bag of Words지문과 답안문장이 짧은 경우(딥러닝이 힘들 경우)
+2. &nbsp;&nbsp;&nbsp;CBOW근처 단어를 통해 중심 단어 예측 문제 적용
+3. &nbsp;&nbsp;&nbsp;Skip-gram중심 단어를 통해 근처 단어 예측 문제 적용
+4. &nbsp;&nbsp;&nbsp;Kor2Vec한국어에 맞는 Word2Vec의 변형된 형태
+5. &nbsp;&nbsp;&nbsp;RNNSimple-RNN으로 문장 구체도 판단여부에 적용
+6. &nbsp;&nbsp;&nbsp;LSTM구체도 판단 여부에 관한 문제의 보충을 위해 사용
 
 ## Tech/framework used
   - OS : Windows10, Linux(Ubuntu-server)
@@ -32,17 +43,13 @@
 - [konlpy](https://konlpy-ko.readthedocs.io/ko/v0.4.3/)
 - [soynlp](https://github.com/lovit/soynlp)
 
-## Features
+## Institution advisement
 
-## Code Example
 
-## Installation
-
-## API Reference
 
 ## How to use?
 
 ## License
-A short snippet describing the license
+소프트웨어 저작권 등록시, 관련 파일 업로드 예정
 
  © [이승엽](https://github.com/Seungyeup), [문혁준](https://github.com/mhj6972), [이찬영](https://github.com/cammm988)
