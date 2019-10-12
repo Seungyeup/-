@@ -2,7 +2,7 @@
 
 # &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; < 2019 전반기 정보컴퓨터공학 전공 졸업과제 > 
 
-## Poster
+## POSTER
 ![alt tag](https://raw.githubusercontent.com/Seungyeup/graduation-project/master/home/share/img/sub/포스터.jpg)
 
 ## Motivation
@@ -10,6 +10,8 @@
 본 졸업과제인 학습컨설팅시스템의 검사문항들 중 주관식 채점문항은 총 4개이며, 문항의 내용은 <br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1) 지문의 핵심내용 파악하기, 2) 핵심내용 요약하기, 3) 작문하기, 4) 구체도 파악하기 이다.<br><br>
 각 문항의 채점자동화를 위해 사용할 기술은 1)머신러닝의 자연어처리(NLP)중 konlpy와 같은 파이썬 한글 라이브러리를 활용한 형태소 품사태깅, 2)NLTK를 활용한 불용어제거 및 형태소 수집, 3)Sentiment-Analysis(감성 분석)을 활용하여 텍스트에 대한 객관적인 정보 추출이다.
 
+
+![alt tag](https://raw.githubusercontent.com/Seungyeup/graduation-project/master/home/share/img/sub/0101_img01.jpg)
 ## Institution Requirement
 - 장문의 문장들을 NLTK나 Konlpy 를 통하여 형태소 별로 분류하고 이를 품사 Tagging 할 수 있어야 한다. 그리고 한국어 형태소 분류를 할 때 이에 맞는 tag Package를 사용해야 한다. (한나눔, 꼬꼬마, 코모란, 메캅, 트위터 등등) 문장 구성에 최소한의 의미를 부여하는 단어나 필요 이상으로 쓰이는 불용어는 NLTK를 사용해 필터링 해야 한다.<br>
 
