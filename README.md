@@ -1,4 +1,5 @@
-#  2019 전반기 정보컴퓨터공학 전공 졸업과제
+#
+#""2019 전반기 정보컴퓨터공학 전공 졸업과제
 ![alt tag](https://raw.githubusercontent.com/Seungyeup/graduation-project/master/home/share/img/sub/포스터.jpg)
 ![alt tag](https://raw.githubusercontent.com/Seungyeup/graduation-project/master/home/share/img/sub/0101_img01.jpg)
 
