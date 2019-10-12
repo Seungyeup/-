@@ -32,7 +32,7 @@
 6. &nbsp;&nbsp;&nbsp;LSTM구체도 판단 여부에 관한 문제의 보충을 위해 사용
 
 ## how it actually works? (back-end)
-![alt tag](https://raw.githubusercontent.com/Seungyeup/graduation-project/master/home/share/img/sub/test.gif)
+![alt tag](https://raw.githubusercontent.com/Seungyeup/graduation-project/master/home/share/img/sub/test2.gif)
 
 ## Tech/framework used
   - OS : Windows10, Linux(Ubuntu-server)
