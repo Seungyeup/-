@@ -15,7 +15,7 @@
 [![Windows Build Status](https://ci.appveyor.com/api/projects/status/github/akashnimare/foco?branch=master&svg=true)](https://ci.appveyor.com/project/akashnimare/foco/branch/master)
 
  
-## Screenshots
+## How it works
 
 ## Tech/framework used
   - Python3.6(Anaconda), PyCharm, tensorflow
