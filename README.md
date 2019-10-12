@@ -24,7 +24,7 @@
 ![alt tag](https://raw.githubusercontent.com/Seungyeup/graduation-project/master/home/share/img/sub/웹페이지.jpg)
 
 
-## how it actually works? (back-end)
+## How it actually works? (back-end)
 ![alt tag](https://raw.githubusercontent.com/Seungyeup/graduation-project/master/home/share/img/sub/test2.gif)
 
 ## NLP Algorithms that we used
