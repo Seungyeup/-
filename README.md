@@ -28,6 +28,8 @@
 5. &nbsp;&nbsp;&nbsp;RNNSimple-RNN으로 문장 구체도 판단여부에 적용
 6. &nbsp;&nbsp;&nbsp;LSTM구체도 판단 여부에 관한 문제의 보충을 위해 사용
 
+## how it actually works?
+
 ## Tech/framework used
   - OS : Windows10, Linux(Ubuntu-server)
   - PL : Python3, JavaScript, PHP, Ajax
