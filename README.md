@@ -2,6 +2,7 @@
 
 # &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; < 2019 전반기 정보컴퓨터공학 전공 졸업과제 > 
 
+## Poster
 ![alt tag](https://raw.githubusercontent.com/Seungyeup/graduation-project/master/home/share/img/sub/포스터.jpg)
 
 ## Motivation
