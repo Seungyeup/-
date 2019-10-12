@@ -2,7 +2,7 @@
 
 # &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; < 2019 전반기 정보컴퓨터공학 전공 졸업과제 > 
 
-## &nbsp;&nbsp; TITLE &nbsp;: &nbsp; &nbsp;&nbsp; 학습 컨설팅을 위한 &nbsp; NLP 주관식 채점관리 시스템 
+## &nbsp;&nbsp; TITLE &nbsp;: &nbsp; &nbsp;&nbsp;  &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;학습 컨설팅을 위한 &nbsp; NLP 주관식 채점관리 시스템 
 ![alt tag](https://raw.githubusercontent.com/Seungyeup/graduation-project/master/home/share/img/sub/0101_img02.jpg)
 
 ## Motivation
@@ -17,7 +17,7 @@
  - 여러 번의 실험과 데이터 수집을 통해 정확도를 최대한 끌어올리고 최소한의 오차를 지향해야 한다. 학습 진단 검사의 답안 채점 기준을 참고하여 정답을 채점 할 수 있도록 한다.
 
 
-## What we made
+## What we made (POSTER)
 ![alt tag](https://raw.githubusercontent.com/Seungyeup/graduation-project/master/home/share/img/sub/포스터.jpg)
 
 ## Web-page (front-end)
