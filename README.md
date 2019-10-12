@@ -3,7 +3,7 @@
 # &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; < 2019 전반기 정보컴퓨터공학 전공 졸업과제 > 
 
 
-![alt tag](https://raw.githubusercontent.com/Seungyeup/graduation-project/master/home/share/img/sub/0101_img01.jpg)
+![alt tag](https://raw.githubusercontent.com/Seungyeup/graduation-project/master/home/share/img/sub/0101_img02.jpg)
 
 ## Motivation
 &nbsp;&nbsp; 학습컨설팅에 있어 학생들의 독해, 작문능력은 핵심적인 요소이다. 그러나 학생들 개개인의 주관식 답안들을 일일이 교사들의 인력을 동원해 채점해야 한다는 점에서 현실적인 어려움에 부딪히게 된다. 따라서 본 졸업과제는 위의 문제점을 해결하고자, 머신러닝을 이용한 주관식 채점 시스템이 포함된 학습컨설팅 시스템 개발을 목표로 한다. 이는 시간과 비용을 절약하고, 학생들의 대략적인 학습능력을 빠르게 검진하는데 큰 도움이 될 것이다.<br><br>
